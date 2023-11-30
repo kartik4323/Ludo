@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.piece {
+  height: 4.8rem;
+}
+.block {
+  border: solid 2px #000;
+  width: 10rem;
+  height: 10rem;
+}
+
+.dice {
+  height: 9.6rem;
+  width: 9.6rem;
+  justify-self: center;
+  border: solid 0.8px #000;
+}
+.primary-heading {
+  font-size: 4.8rem;
+  text-align: center;
+  background-color: aquamarine;
+  padding: 2.4rem 0;
+  margin-bottom: 4.8rem;
+}
+.roll {
+  background-color: red;
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+  border: none;
+  border-radius: 12000px;
+  font-weight: 700;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.roll:hover,
+.roll:active {
+  background-color: rgb(230, 5, 5);
+}
+.board-set-1 {
+  display: flex;
+}
+.board-set-2 {
+  display: flex;
+  flex-direction: column;
+}
+.board-set-3 {
+  display: flex;
+  flex-direction: column;
+}
+.board-set-4 {
+  display: flex;
+}
+
+.board-main {
+  max-width: 80rem;
+  max-height: 80rem;
+  margin: 0 auto;
+}
+.column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.block1 {
+  background-color: rgb(246, 138, 138);
+}
+.block28 {
+  background-color: rgb(134, 134, 234);
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.function-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.6rem;
+}
+.player {
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 500;
+}
